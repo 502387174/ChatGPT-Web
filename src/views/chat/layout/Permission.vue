@@ -3,7 +3,7 @@ import { computed, ref } from 'vue'
 import { NButton, NInput, NModal, useMessage } from 'naive-ui'
 import { fetchVerify } from '@/api'
 import { useAuthStore } from '@/store'
-import defaultAvatar from '@/assets/img.jpg'
+import defaultAvatar from '@/assets/img.png'
 
 interface Props {
   visible: boolean
