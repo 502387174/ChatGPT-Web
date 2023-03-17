@@ -59,7 +59,7 @@ function handlePress(event: KeyboardEvent) {
           <p class="text-base text-center text-slate-500 dark:text-slate-500">
             {{ $t('common.unauthorizedTips') }}
           </p>
-					<div class="w-[100px]">
+					<div class="w-[200px]" style="margin: auto">
 							<img :src="defaultAvatar" alt="403">
 					</div>
         </header>
