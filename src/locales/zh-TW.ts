@@ -13,7 +13,7 @@ export default {
     success: '操作成功',
     failed: '操作失敗',
     verify: '驗證',
-    unauthorizedTips: '人机验证，扫码回复：验证码',
+    unauthorizedTips: '人机验证，扫码回复：gpt',
   },
   chat: {
     placeholder: '來說點什麼...（Shift + Enter = 換行）',
