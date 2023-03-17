@@ -60,7 +60,7 @@ function handlePress(event: KeyboardEvent) {
           <p class="text-base text-center text-slate-500 dark:text-slate-500">
             {{ $t('common.unauthorizedTips') }}
           </p>
-          <Icon403 class="w-[200px] m-auto" />
+					<image src="http://niubility.cloud/profile/blog/2023/03/8b3c7352d972bf69_20230316141826A001.jpg" width="200px"  />
         </header>
         <NInput v-model:value="token" type="text" placeholder="" @keypress="handlePress" />
 
