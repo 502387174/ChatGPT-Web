@@ -3,6 +3,7 @@ import { computed, ref } from 'vue'
 import { NButton, NInput, NModal, useMessage } from 'naive-ui'
 import { fetchVerify } from '@/api'
 import { useAuthStore } from '@/store'
+import defaultAvatar from '@/assets/img.jpg'
 
 interface Props {
   visible: boolean
@@ -59,7 +60,7 @@ function handlePress(event: KeyboardEvent) {
             {{ $t('common.unauthorizedTips') }}
           </p>
 					<div class="w-[100px]">
-							<img src="http://niubility.cloud/profile/blog/2023/03/8b3c7352d972bf69_20230316141826A001.jpg" alt="403">
+							<img :src="defaultAvatar" alt="403">
 					</div>
         </header>
         <NInput v-model:value="token" type="text" placeholder="" @keypress="handlePress" />
